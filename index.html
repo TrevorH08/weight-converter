@@ -17,5 +17,18 @@
       onchange="weightConverter(this.value)"
     />
     <p>Grams: <span id="outputGrams"></span></p>
+    <h2>Pounds to Grams</h2>
+    <p>Enter a value for Pounds, to see it's equivilant in Grams.</p>
+    <p>
+      <label>Pounds</label>
+      <input
+        id="inputPounds"
+        type="number"
+        placeholder="Pounds"
+        oninput="weightConverterPounds(this.value)"
+        onchange="weightConverterPounds(this.value)"
+      />
+    </p>
+    <p>Grams: <span id="lbs2gm"></span></p>
   </body>
 </html>
