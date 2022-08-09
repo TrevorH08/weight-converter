@@ -6,5 +6,16 @@
   </head>
   <body>
     <h1>Cooking Units Conversion</h1>
+    <h2>Ounces to Grams</h2>
+    <p>Enter a value for Ounces, to see it's equivilant in Grams.</p>
+    <label>Ounces</label>
+    <input
+      id="inputOunces"
+      type="number"
+      placeholder="Ounces"
+      oninput="weightConverter(this.value)"
+      onchange="weightConverter(this.value)"
+    />
+    <p>Grams: <span id="outputGrams"></span></p>
   </body>
 </html>
